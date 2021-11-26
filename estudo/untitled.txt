@@ -1,0 +1,10 @@
+Passos para tratar dados
+
+1 - Visualizar se existe desvio padrão, ou seja, valores extremamente longe da média de dados da base
+2 - Se tiver dados muito longe da média, transformar esses dados distribuindo a média dos outros valores dentro dos campos nos quais possuem desvio padrão
+3 - Identificar se existem valores nulos
+4 - Se tiver valores nulos, preencher os valores da mesma forma acima
+5 - Se existirem dados categóricos, ou seja, dados que são strings, substituir esses valores por números usando o LabelEncoder e o OneHotEncoder
+6 - Após todos esses passos, escalonar os valores da base para que os algoritmos não entendam que um número seja melhor ou mais importante que os outros números
+7 - Dividir a base de dados entre teste e treinamento
+8 - Dumpar as bases de dados já pré-processadas
